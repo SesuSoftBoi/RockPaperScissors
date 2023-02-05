@@ -45,12 +45,11 @@ namespace RockPaperScissors
                 {
                     return "P";
                 }
-                else if (choice == 2)
+                else
                 {
                     return "S";
                 }
 
-                return "";
             }
 
             static string GetResult(string playerChoice, string computerChoice)
